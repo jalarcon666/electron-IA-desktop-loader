@@ -3,4 +3,4 @@
 npm install
 npm run make
 
-Google Gemini & ChatGPT
+Google Gemini

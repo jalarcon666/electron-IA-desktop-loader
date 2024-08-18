@@ -50,7 +50,7 @@ app.whenReady().then(() => {
     tray = new Tray(icon);
     if (app.dock) app.dock.hide(); //Oculta icono en DOCK
     const contextMenu = Menu.buildFromTemplate([
-        {label: 'Salir de Gemini', type: 'normal', click: () => {
+        {label: 'Salir de ChatGPT', type: 'normal', click: () => {
                 win.close();
             }}
     ])

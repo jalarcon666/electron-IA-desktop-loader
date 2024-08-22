@@ -1,9 +1,11 @@
 # electron-IA-desktop-loader
 
 npm install
-npm run make
+npm audit fix
+yarn add electron-builder --dev
+npm run dist
 
-Google Gemini
+Google Gemini Windows
 
 CTRL + G -> Entrada texto
 CTRL + MAYUS IZQ + G -> Entrada por voz
